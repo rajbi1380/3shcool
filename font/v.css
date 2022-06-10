@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "nima";
+  src: url("../font/font/SourceSansPro-ttf.ttf") format("truetype");
+}
+
+.Header {
+  background-color: rgb(255, 254, 254);
+  height: 80px;
+  position: relative;
+}
+body {
+  font-family: nima;
+}
+
+.v0 {
+  list-style-type: none;
+}
+.v0 :hover {
+  background-color: #04aa6d;
+}
+.v1 {
+  display: inline-block;
+
+  font-size: 25px;
+  font-weight: bold;
+  padding: 25px 15px;
+  margin: auto 10px;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+.right {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+
+  right: 0;
+}
+.log {
+  height: 100%;
+  width: 15%;
+  position: absolute;
+
+  left: 0;
+}
+.photo {
+  width: 60%;
+  height: 60%;
+  margin: 15px;
+}
+.menu {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+
+  right: 0;
+}
+
+.v5 {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+
+  background-color: rgba(4, 170, 109, 1);
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  line-height: 40px;
+}
+.v5:hover {
+  background-color: #138a5e;
+
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.v12 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.v12 :hover {
+  color: #04aa6d;
+}
+.v13 {
+  position: absolute;
+  top: 30px;
+
+  left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.v13 :hover {
+  color: #04aa6d;
+}
+.v14 {
+  position: absolute;
+  top: 30px;
+  font-weight: bold;
+  left: 90px;
+  font-size: 20px;
+}
+.v14 :hover {
+  color: #04aa6d;
+}
+.v4 {
+  position: absolute;
+  right: 400px;
+  top: 20px;
+
+  color: black;
+
+  border-radius: 30px;
+
+  display: inline-block;
+
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  height: 50px;
+}
+.v4:hover {
+  background-color: #04aa6d;
+
+  width: 150px;
+  height: 50px;
+
+  border-radius: 30px;
+}
+
+.v16 {
+  position: absolute;
+  right: 220px;
+  top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  color: black;
+
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  line-height: 40px;
+}
+.v16:hover {
+  background-color: #04aa6d;
+
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+}
+.badan {
+  background-color: #282a35;
+  height: 550px;
+  position: relative;
+}
+.v3 {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+
+  right: 0;
+  list-style-type: none;
+}
+.PARA {
+  height: 100%;
+  width: 15%;
+  position: absolute;
+}
+.r {
+  width: 50%;
+  height: 100%;
+  right: 0;
+  position: absolute;
+}
+.l {
+  width: 50%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.title {
+  font-size: 110px;
+  font-weight: bold;
+  color: #ffff;
+}
+.pr {
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.btn1,
+.btn2 {
+  width: 200px;
+
+  margin: 20px auto;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.btn1 {
+  background-color: rgba(4, 170, 109, 1);
+  color: #ffff;
+}
+
+.btn2 {
+  background-color: #ffff;
+}
+
+.conteiner {
+  width: 580px;
+  height: 400px;
+  background-color: #e7e9eb;
+  margin: 70px auto;
+  border-radius: 7px;
+  padding: 25px 15px;
+}
+.code {
+  width: 540px;
+  height: 240px;
+  background-color: rgb(255, 255, 255);
+  margin: 15px auto;
+  border-left: 5px SOLID #04aa6d;
+  padding: 10px;
+}
+.btn3 {
+  width: 200px;
+
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: #04aa6d;
+  color: #ffff;
+
+  text-align: center;
+}
+.LI {
+  text-decoration: none;
+}
+
+.LI :hover {
+  background-color: #138a5e;
+}
+.LO {
+  color: black;
+  text-decoration: none;
+}
+.LO :hover {
+  background-color: rgb(206, 216, 227);
+}
+@media screen and (max-width: 700px) {
+  .badan {
+    width: 800px;
+  }
+  .Header {
+    width: 1300px;
+  }
+}
